@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+.prueba {
+    background-color: #FFEA11;
+}
+
 /*! =================  INDEX  =================== */
 .backIndex{
     background-color: black;
@@ -45,6 +49,10 @@ a{
     }
         .nav{
             flex: 5 1 auto;
+        }
+        .nav1{
+            display: none;
+            visibility: hidden;
         }
             .nav a{
                 padding: 10px;
@@ -178,16 +186,6 @@ a{
 
 /*? -------------- MEDIA QUERYS ------------ */
 @media screen and (max-width:970px){
-/* .header{
-    height: 50vh;
-    background-image: url(../img/Fondo1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
-    display: flex;
-    flex-flow: column nowrap;
-}   */
     .menu{
         flex-direction: column;
         width: 100%;
@@ -231,6 +229,22 @@ a{
     }
 }
 @media screen and (max-width:680px){
+.nav a{
+    display: none;
+}
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    visibility: visible;
+}
+.nav1 a{
+    margin-inline: 10px;
+    color: white;
+}
+.nav1 a:hover{
+    color: black;
+    transform: scale(1.05);
+}
     .containerToyota{
         flex-direction: column;
         align-items: center;
@@ -296,7 +310,7 @@ a{
         width: 60vh;
     }
 }
-@media screen and (max-width: 430px){
+@media screen and (max-width:430px){
     .txtToyota {
         height: 30vh;
     }
@@ -338,13 +352,40 @@ a{
         font-size: 11px;
     }
 }
+@media screen and (max-width:320px){
+    .containerToyota img{
+        width: 40vh;
+    }
+    .containerFord img{
+        width: 30vh;
+    }
+    .containerNissan img{
+        width: 40vh;
+    } 
+        .txtToyota p{
+            font-size: 11px;
+        }
+        .txtFord p{
+            font-size: 11px;
+        }
+        .txtNissan p{
+            font-size: 11px;
+        }
+}
 /*! =================  PRODUCTOS  =================== */
 .padre{
     background-color: rgba(0, 0, 0, 0.473);
     display: flex;
     flex-flow: column nowrap;
 }
-
+.productos .menu{
+    justify-content: center;
+    align-items: center;
+}
+.productos .nav a{
+    padding: 0;
+    margin: 0px 12px 0px 12px;
+}
 /* -----------MAIN----------- */
     .main{
         background: black;
