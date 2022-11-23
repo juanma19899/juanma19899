@@ -599,6 +599,27 @@ a{
         }
 
 /*? -------------- MEDIA QUERYS ------------- */
+@media screen and (max-width:1064px){
+    .imgToyota img{
+        height: 68vh;
+    }
+    .infoToyota{
+        height: 100px;
+    }
+    .imgFord img{
+        height: 68vh;
+    }
+    .infoFord{
+        height: 100px;
+    }
+    .imgNissan img{
+        height: 68vh;
+        width: 53vh;
+    }
+    .infoNissan{
+        height: 100px;
+    }
+}
 @media screen and (max-width:1000px){
     .imgToyota img{
         height: 60vh;
@@ -711,6 +732,35 @@ a{
     .plus{
         height: 100%;
         font-size: 14px;
+    }
+}
+@media screen and (max-width:365px){
+    .containerPikcup{
+        width: 50vh;
+    } 
+    .imgToyota img{
+        height: 55vh;
+    }
+    .infoToyota{
+        height: 90px;
+        width: 290px;
+    }
+    .imgFord img{
+        height: 57vh;
+    }
+    .infoFord{
+        height: 90px;
+        width: 290px;
+        padding: 0;
+    }
+    .imgNissan img{
+        height: 55vh;
+        width: 46.5vh;
+    }
+    .infoNissan{
+        height: 90px;
+        width: 290px;
+        padding: 0;
     }
 }
 
