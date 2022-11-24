@@ -217,7 +217,7 @@ a{
         width: 60vh;
     }
 }
-@media screen and (max-width:735px){
+/* @media screen and (max-width:735px){
     .txtToyota p{
         font-size: 14px;
     }
@@ -227,8 +227,8 @@ a{
     .txtNissan p{
         font-size: 14px;
     }
-}
-@media screen and (max-width:680px){
+} */
+@media screen and (max-width:750px){
 .nav a{
     display: none;
 }
