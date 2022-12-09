@@ -13,24 +13,12 @@ a{
     text-decoration: none;
 }
 
-.prueba {
-    background-color: #FFEA11;
-}
-
 /*! =================  INDEX  =================== */
-.backIndex{
+.back{
     background-color: black;
 }
 /* ----------- HEADER ---------- */
 .header{
-    /* height: 50vh;
-    background-image: url(../img/fondo1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    flex-flow: column wrap; */
     height: 50vh;
     background-image: url(../img/FondoCopia.jpg);
     background-position: center;
@@ -80,15 +68,6 @@ a{
             height: 30px;
             padding: 5px;
         }
-    .heroSection{
-        display: flex;
-        justify-content: center;
-    }
-        h1{
-            margin: 10px;
-            color: white;
-            letter-spacing: 2px;
-        }
 
 /* --------- MAIN --------- */
 .containerToyota{
@@ -114,7 +93,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* align-content: center; */
+        text-align: justify;
     }
         .txt1{
             margin-bottom: 10px;
@@ -144,6 +123,7 @@ a{
         justify-content: center;
         align-items: center;
         align-content: center;
+        text-align: justify;
     }
 
 .containerNissan{
@@ -170,6 +150,7 @@ a{
         justify-content: center;
         align-items: center;
         align-content: center;
+        text-align: justify;
     }
 
 /* --------- FOOTER ---------- */
@@ -206,28 +187,6 @@ a{
         width: 80vh;
     }
 }
-/* @media screen and (max-width:800px){ 
-    .containerToyota img{
-        width: 60vh;
-    }
-    .containerFord img{
-        width: 50vh;
-    }
-    .containerNissan img{
-        width: 60vh;
-    }
-} */
-/* @media screen and (max-width:735px){
-    .txtToyota p{
-        font-size: 14px;
-    }
-    .txtFord p{
-        font-size: 14px;
-    }
-    .txtNissan p{
-        font-size: 14px;
-    }
-} */
 @media screen and (max-width:850px){
 .nav a{
     display: none;
@@ -354,13 +313,13 @@ a{
 }
 @media screen and (max-width:320px){
     .containerToyota img{
-        width: 40vh;
+        width: 35vh;
     }
     .containerFord img{
         width: 30vh;
     }
     .containerNissan img{
-        width: 40vh;
+        width: 35vh;
     } 
         .txtToyota p{
             font-size: 11px;
@@ -373,30 +332,22 @@ a{
         }
 }
 /*! =================  PRODUCTOS  =================== */
-.padre{
-    background-color: rgba(0, 0, 0, 0.473);
-    display: flex;
-    flex-flow: column nowrap;
-}
-.productos .menu{
-    justify-content: center;
-    align-items: center;
-}
-.productos .nav a{
-    padding: 0;
-    margin: 0px 12px 0px 12px;
-}
 /* -----------MAIN----------- */
     .main{
-        background: black;
         display: flex;
         flex-flow: column nowrap;
+    }
+    .heroSection{
+        display: flex;
+        justify-content: center;
     }
         .heroSection h1{
             width: 100%;
             text-align: center;
             font-size: 25px;
-            margin-bottom: 3vh;
+            margin-block: 2vh;
+            color: white;
+            letter-spacing: 2px;
         }
         .carruselToyota{
             margin-bottom: 7vh;
@@ -419,23 +370,7 @@ a{
             box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
             border-block: 2px solid black;
         }
-            .navegacion{
-               background-color: black;
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
-                box-shadow: 0px 10px 5px rgba(114, 104, 104, 0.582);
-            }
-            .navegacion a{
-                color: white;
-            }
-            .navegacion a:hover{
-                color: #FFEA11;
-            }
 /* --------FOOTER----------- */
-    .footer{
-        background: black;
-    }
         .social:hover{
             transform: scale(1.07);
         }
@@ -454,7 +389,6 @@ a{
 @media screen and (max-width:666px){
     .heroSection h1{
         font-size: 14PX;
-        /* ==============ICONOS============== */
     }
 }
 @media screen and (max-width:510px){
@@ -466,19 +400,11 @@ a{
     .heroSection h1{
         font-size: 6PX;
     }
-    .navegacion a{
-        font-size: 12px;
-    }
     .redes a img{
         height: 40px;
         width: 40px;
     }
 }
-/* @media screen and (max-width:414px){
-    .heroSection{
-        font-size: 5PX;
-    }
-} */
 /*! ============= SERVICIOS =============== */
 .gridServicios{
     display: grid;
@@ -486,17 +412,6 @@ a{
     grid-template-rows: 350px auto 180px;
     background: black;
 }
-    .headerServicios{
-        height: 50vh;
-        background-image: url(../img/FondoCopia.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: sticky;
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
 /* ------------- MIAN ----------- */
 
     .mainServicios{
@@ -509,34 +424,19 @@ a{
     }
         .containerPikcup{
             box-shadow: -10px 10px 5px rgba(128, 128, 128, 0.582);
-            /* -webkit-box-shadow: 0px 0px 14px 2px rgba(189,176,176,1);
-            -moz-box-shadow: 0px 0px 14px 2px rgba(189,176,176,1);
-            box-shadow: 0px 0px 14px 2px rgba(189,176,176,1); */
             border-radius: 20px;
             color: white;
             font-weight: bold;
             font-size: small;
             transition: 1s;
         }
-        /* .containerPikcup img{
-            transition: 2s;
-        }
-        .containerPikcup img:hover{
-            transform: rotateY(180deg);
-        } */
         .containerPikcup:hover{
             transform: scale(1.02);
-        }
-        .containerPikcup div img{
-            object-fit: cover;
         }
             .imgToyota img{
                 display: flex;
                 height: 80vh;
             }
-            /* .imgToyota img:hover{
-                transform: scale(0.9);
-            } */
             .infoToyota{
                 height: 100px;
                 display: flex;
@@ -544,9 +444,6 @@ a{
                 justify-content: space-around;
                 align-items: center;
                 text-align: justify;
-                /* color: white;
-                font-weight: bold;
-                font-size: small; */
             }
             .imgFord img{
                 height: 80vh;
@@ -736,41 +633,37 @@ a{
 }
 @media screen and (max-width:365px){
     .containerPikcup{
-        width: 50vh;
+        width: 40vh;
     } 
     .imgToyota img{
-        height: 55vh;
+        height: 45vh;
     }
     .infoToyota{
         height: 90px;
-        width: 290px;
+        width: 230px;
     }
     .imgFord img{
-        height: 57vh;
+        height: 47vh;
     }
     .infoFord{
         height: 90px;
-        width: 290px;
+        width: 230px;
         padding: 0;
     }
     .imgNissan img{
-        height: 55vh;
-        width: 46.5vh;
+        height: 45vh;
+        width: 36.5vh;
     }
     .infoNissan{
         height: 90px;
-        width: 290px;
+        width: 230px;
         padding: 0;
     }
 }
 
 /*! ============= NOSOTROS =============== */
-.backNosotros{
-    background: black;
-}
-
 /* ------------- MIAN ----------- */
-.imgMision{
+.containerMision{
     width: 100%;
     position: relative;
 }
@@ -782,11 +675,11 @@ a{
     }
         .txtMision{
             width: 400px;
-            display: felx;
+            display: flex;
             margin-top: 30px;
             justify-content: center;
         }
-.imgVision{
+.containerVision{
     width: 100%;
     position: relative;
 }
@@ -798,12 +691,12 @@ a{
     }
         .txtVision{
             width: 400px;
-            display: felx;
+            display: flex;
             margin-top: 30px;
             justify-content: center;
         }
         
-.img1{
+.imgMision{
     height: 600px;
     width: 600px;
     margin-top: 50px;
@@ -813,7 +706,7 @@ a{
     -moz-box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
     box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
 }
-.img2{
+.imgVision{
     height: 600px;
     width: 600px;
     margin-top: -240px;
@@ -827,12 +720,12 @@ a{
 
 /*? -------------MEDIA QUETYS------------- */
 @media screen and (max-width:1064px){
-.img1{
+.imgMison{
     height: 500px;
     width: 500px;
     margin-left: 450px;
 }
-.img2{
+.imgVision{
     height: 500px;
     width: 500px;
     margin-left: 80px;
@@ -851,12 +744,12 @@ a{
         }
 }
 @media screen and (max-width:1024px){
-.img1{
+.imgMision{
     height: 400px;
     width: 400px;
     margin-top: 70px;
 }
-.img2{
+.imgVision{
     height: 400px;
     width: 400px;
     margin-top: -170px;
@@ -867,12 +760,12 @@ a{
 }
 }
 @media screen and (max-width:970px){
-.img1{
+.imgMision{
     height: 400px;
     width: 400px;
     margin: 70px 0 0 430px;
 }
-.img2{
+.imgVision{
     height: 400px;
     width: 400px;
     margin-top: -170px;
@@ -892,12 +785,12 @@ a{
         }
 }
 @media screen and (max-width:908px){
-.img1{
+.imgMision{
     height: 300px;
     width: 300px;
     margin: 90px 0 0 400px;
 }
-.img2{
+.imgVision{
     height: 300px;
     width: 300px;
     margin-top: -170px;
@@ -917,12 +810,12 @@ a{
         }
 }
 @media screen and (max-width:840px){
-.img1{
+.imgMision{
     height: 300px;
     width: 300px;
     margin: 90px 0 0 400px;
 }
-.img2{
+.imgVision{
     height: 300px;
     width: 300px;
     margin-top: -170px;
@@ -937,12 +830,12 @@ a{
     }
 }
 @media screen and (max-width:740px){
-    .img1{
+    .imgMision{
         height: 200px;
         width: 200px;
         margin: 40px 0 0 350px;
     }
-    .img2{
+    .imgVision{
         height: 200px;
         width: 200px;
         margin-top: -170px;
@@ -963,6 +856,52 @@ a{
             }
 }
 @media screen and (max-width:600px){
+.containerMision{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+    .mision{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 25px;
+    }
+        .txtMision{
+            margin-top: 10px;
+        }
+    .imgMision{
+        margin: 0;
+        margin-top: 50px;
+    }
+.containerVision{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+    .vision{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+        .txtVision{
+            margin-top: 10px;  
+        }
+    .imgVision{
+        margin: 0;
+        margin-top: 40px;
+    }
 
 }
 
@@ -973,18 +912,6 @@ a{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 350px auto 300px;
-}
-
-/* ---------- HEADER ----------- */
-.headerContacto{
-    height: 50vh;
-    background-image: url(../img/FondoCopia.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: sticky;
-    display: flex;
-    flex-flow: column nowrap;
 }
 
 /* ------------- MIAN ----------- */
@@ -1216,7 +1143,8 @@ a{
     align-items: center;
 }
         .contacto h2{
-        margin: 40px 0 0 -300px;
+        margin: 30px 0 0 0px;
+        text-align: center;
         font-size: 30px;   
         }
         .opcionEmail{
@@ -1238,9 +1166,11 @@ a{
         margin: 0;
         width: 450px;
     }
-    /* .container2 form{
-        margin: 0 0 0 50px;
-    } */
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
         .name{
             width: 440px;
             height: 60px;
@@ -1268,7 +1198,117 @@ a{
     .menuContacto{
         grid-column: 1/4;
     }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+            li{
+                margin-inline: 10px;
+                padding-inline: 5px;
+            }
     .ubicacionContacto{
         grid-column: 1/4;
     }
+        h2{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .ul1{
+            display: flex;
+            flex-direction: column;  
+            align-items: center;
+        }
+}
+@media screen and (max-width:500px){
+    .opcionEmail{
+        width: 380px;
+        height: 30vh;
+        margin: 40px 0 40px 0;
+    }   
+    .opcionMessenger{
+        width: 380px;
+        height: 30vh;
+        margin: 0 0 40px 0;
+    }
+    .opcionWhatsapp{
+        width: 380px;
+        height: 30vh;
+        margin: 0;
+    }
+    .name{
+        width: 380px;
+        height: 60px;
+        margin: 0 0 30px 0;
+    }
+    .mail{
+        width: 380px;
+        height: 60px;
+        margin: 0 0 30px 0;
+    }
+    .comentario{
+        width: 380px;
+        margin: 0 0 30px 0;
+    }
+    .enviar{
+        width: 110px;
+        padding: 10px;
+    }
+    .menuContacto{
+        grid-column: 1/4;
+    }
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+@media screen and (max-width:450px){
+   .opcionEmail{
+        width: 330px;
+        height: 30vh;
+        margin: 40px 0 40px 0;
+    }   
+    .opcionMessenger{
+        width: 330px;
+        height: 30vh;
+        margin: 0 0 40px 0;
+    }
+    .opcionWhatsapp{
+        width: 330px;
+        height: 30vh;
+        margin: 0;
+    }
+    .name{
+        width: 330px;
+        height: 60px;
+        margin: 0 0 30px 0;
+    }
+    .mail{
+        width: 330px;
+        height: 60px;
+        margin: 0 0 30px 0;
+    }
+    .comentario{
+        width: 330px;
+        margin: 0 0 30px 0;
+    }
+    .enviar{
+        width: 110px;
+        padding: 10px;
+    } 
+.footerContacto{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+}
+    .nosotrosContacto{
+        width: 330px;
+        height: 200px;
+        padding-bottom: 0;
+    }
+    .menuContacto{
+        width: 330px;
+        padding-top: 0;
+    } 
+
 }

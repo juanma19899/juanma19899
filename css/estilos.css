@@ -1,0 +1,1267 @@
+@import url("https://fonts.googleapis.com/css2? family= Anton & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: 'Anton', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.back {
+  background-color: black; }
+  .back header {
+    height: 50vh;
+    background-image: url(../img/FondoCopia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    flex-flow: column nowrap; }
+    .back header .menu {
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-flow: row;
+      height: 115px;
+      align-items: center; }
+      .back header .menu .nav {
+        flex: 5 1 auto; }
+        .back header .menu .nav a {
+          padding: 10px;
+          color: white;
+          font-size: 15px;
+          letter-spacing: 2px; }
+          .back header .menu .nav a:hover {
+            color: black; }
+      .back header .menu .nav1 {
+        display: none;
+        visibility: hidden; }
+      .back header .menu .logo {
+        display: flex;
+        flex-flow: row nowrap; }
+        .back header .menu .logo a img {
+          width: 380px; }
+
+.gridServicios {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 350px auto 180px;
+  background-color: black; }
+  .gridServicios header {
+    height: 50vh;
+    background-image: url(../img/FondoCopia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    flex-flow: column nowrap; }
+    .gridServicios header .menu {
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-flow: row;
+      height: 115px;
+      align-items: center; }
+      .gridServicios header .menu .nav {
+        flex: 5 1 auto; }
+        .gridServicios header .menu .nav a {
+          padding: 10px;
+          color: white;
+          font-size: 15px;
+          letter-spacing: 2px; }
+          .gridServicios header .menu .nav a:hover {
+            color: black; }
+      .gridServicios header .menu .nav1 {
+        display: none;
+        visibility: hidden; }
+      .gridServicios header .menu .logo {
+        display: flex;
+        flex-flow: row nowrap; }
+        .gridServicios header .menu .logo a img {
+          width: 380px; }
+
+.gridContacto {
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 350px auto 300px; }
+  .gridContacto header {
+    height: 50vh;
+    background-image: url(../img/FondoCopia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    flex-flow: column nowrap; }
+    .gridContacto header .menu {
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-flow: row;
+      height: 115px;
+      align-items: center; }
+      .gridContacto header .menu .nav {
+        flex: 5 1 auto; }
+        .gridContacto header .menu .nav a {
+          padding: 10px;
+          color: white;
+          font-size: 15px;
+          letter-spacing: 2px; }
+          .gridContacto header .menu .nav a:hover {
+            color: black; }
+      .gridContacto header .menu .nav1 {
+        display: none;
+        visibility: hidden; }
+      .gridContacto header .menu .logo {
+        display: flex;
+        flex-flow: row nowrap; }
+        .gridContacto header .menu .logo a img {
+          width: 380px; }
+
+main .containerToyota {
+  display: flex;
+  flex-flow: row nowrap; }
+  main .containerToyota div img {
+    width: 100vh;
+    margin: 50px;
+    -webkit-box-shadow: 0px 0px 45px 1px #5c585c;
+    -moz-box-shadow: 0px 0px 45px 1px #5c585c;
+    box-shadow: 0px 0px 45px 1px #5c585c; }
+    main .containerToyota div img:hover {
+      transition-duration: 1s;
+      transform: scale(1.05); }
+  main .containerToyota .txtToyota {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin-right: 50px;
+    color: white;
+    font-size: 16px; }
+    main .containerToyota .txtToyota .txt1 {
+      margin-bottom: 10px; }
+
+main .containerFord {
+  display: flex;
+  flex-flow: row nowrap; }
+  main .containerFord .txtFord {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 110vh;
+    margin-left: 50px;
+    color: white;
+    font-size: 16px; }
+    main .containerFord .txtFord .txt1 {
+      margin-bottom: 10px; }
+  main .containerFord div img {
+    width: 90vh;
+    margin: 0 50px 50px 50px;
+    -webkit-box-shadow: 0px 0px 45px 1px #5c585c;
+    -moz-box-shadow: 0px 0px 45px 1px #5c585c;
+    box-shadow: 0px 0px 45px 1px #5c585c; }
+    main .containerFord div img:hover {
+      transition-duration: 1s;
+      transform: scale(1.05); }
+
+main .containerNissan {
+  display: flex;
+  flex-flow: row nowrap; }
+  main .containerNissan div img {
+    width: 100vh;
+    margin: 0 50px 10px 50px;
+    -webkit-box-shadow: 0px 0px 45px 1px #5c585c;
+    -moz-box-shadow: 0px 0px 45px 1px #5c585c;
+    box-shadow: 0px 0px 45px 1px #5c585c; }
+    main .containerNissan div img:hover {
+      transition-duration: 1s;
+      transform: scale(1.05); }
+  main .containerNissan .txtNissan {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin-right: 50px;
+    color: white;
+    font-size: 16px; }
+    main .containerNissan .txtNissan .txt1 {
+      margin-bottom: 10px; }
+
+main {
+  display: flex;
+  flex-flow: column nowrap; }
+  main .heroSection {
+    display: flex;
+    justify-content: center; }
+    main .heroSection h1 {
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      margin-block: 2vh;
+      color: white;
+      letter-spacing: 2px; }
+  main .carruselToyota {
+    margin-bottom: 7vh;
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    -moz-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    border-block: 2px solid black; }
+  main .carruselFord {
+    margin-bottom: 7vh;
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    -moz-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    border-block: 2px solid black; }
+  main .carruselNissan {
+    margin-bottom: 5vh;
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    -moz-box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    box-shadow: 0px 0px 11px 7px rgba(110, 104, 110, 0.86);
+    border-block: 2px solid black; }
+
+.mainServicios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px; }
+  .mainServicios .containerPikcup {
+    box-shadow: -10px 10px 5px rgba(128, 128, 128, 0.582);
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+    transition: 1s; }
+    .mainServicios .containerPikcup:hover {
+      transform: scale(1.02); }
+    .mainServicios .containerPikcup .imgToyota img {
+      display: flex;
+      height: 80vh; }
+    .mainServicios .containerPikcup .infoToyota {
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      flex-wrap: wrap; }
+    .mainServicios .containerPikcup .imgFord img {
+      height: 80vh; }
+    .mainServicios .containerPikcup .infoFord {
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      flex-wrap: wrap; }
+    .mainServicios .containerPikcup .imgNissan img {
+      height: 80vh;
+      width: 62vh; }
+    .mainServicios .containerPikcup .infoNissan {
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      flex-wrap: wrap; }
+
+.containerMision {
+  width: 100%;
+  position: relative; }
+  .containerMision .imgMision {
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 550px;
+    /* box-shadow: 10px -10px 5px rgba(228, 209, 209, 0.582); */
+    -webkit-box-shadow: 0px 0px 19px 6px #9e8080;
+    -moz-box-shadow: 0px 0px 19px 6px #9e8080;
+    box-shadow: 0px 0px 19px 6px #9e8080; }
+  .containerMision .mision {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: white; }
+    .containerMision .mision h2 {
+      font-size: 25px; }
+    .containerMision .mision .txtMision {
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      margin-top: 30px;
+      font-size: 16px; }
+
+.containerVision {
+  width: 100%;
+  position: relative; }
+  .containerVision .imgVision {
+    height: 600px;
+    width: 600px;
+    margin-top: -240px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    /* box-shadow: 10px -10px 5px rgba(128, 128, 128, 0.582); */
+    -webkit-box-shadow: 0px 0px 19px 6px #9e8080;
+    -moz-box-shadow: 0px 0px 19px 6px #9e8080;
+    box-shadow: 0px 0px 19px 6px #9e8080; }
+  .containerVision .vision {
+    position: absolute;
+    left: 820px;
+    top: 70px;
+    color: white; }
+    .containerVision .vision h2 {
+      font-size: 25px; }
+    .containerVision .vision .txtVision {
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      margin-top: 30px;
+      font-size: 16px; }
+
+.mainContacto {
+  display: grid;
+  grid-template-rows: 900px;
+  grid-template-columns: 1fr 1.5fr; }
+  .mainContacto .container1 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainContacto .container1 .contacto h2 {
+      margin: 40px 0 0 -50px;
+      font-size: 30px; }
+    .mainContacto .container1 .opcionEmail {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFEA11;
+      border: 2px solid black;
+      color: black;
+      -webkit-box-shadow: 0px 0px 13px 1px #c9abab;
+      -moz-box-shadow: 0px 0px 13px 1px #c9abab;
+      box-shadow: 0px 0px 13px 1px #c9abab;
+      border-radius: 20px;
+      width: 265px;
+      height: 30vh;
+      margin: 10vh 0 0 10vh; }
+      .mainContacto .container1 .opcionEmail:hover {
+        background-color: transparent;
+        border: 2px solid #FFEA11;
+        color: white;
+        transform: scale(1.1);
+        transition-duration: 1s;
+        transition-timing-function: ease-out; }
+      .mainContacto .container1 .opcionEmail div i {
+        font-size: 25px; }
+    .mainContacto .container1 .opcionMessenger {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFEA11;
+      border: 2px solid black;
+      color: black;
+      -webkit-box-shadow: 0px 0px 13px 1px #c9abab;
+      -moz-box-shadow: 0px 0px 13px 1px #c9abab;
+      box-shadow: 0px 0px 13px 1px #c9abab;
+      border-radius: 20px;
+      width: 265px;
+      height: 30vh;
+      margin: 10vh 0 0 10vh; }
+      .mainContacto .container1 .opcionMessenger:hover {
+        background-color: transparent;
+        border: 2px solid #FFEA11;
+        color: white;
+        transform: scale(1.1);
+        transition-duration: 1s;
+        transition-timing-function: ease-out; }
+      .mainContacto .container1 .opcionMessenger div i {
+        font-size: 25px; }
+    .mainContacto .container1 .opcionWhatsapp {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      background-color: #FFEA11;
+      border: 2px solid black;
+      color: black;
+      -webkit-box-shadow: 0px 0px 13px 1px #c9abab;
+      -moz-box-shadow: 0px 0px 13px 1px #c9abab;
+      box-shadow: 0px 0px 13px 1px #c9abab;
+      border-radius: 20px;
+      width: 265px;
+      height: 30vh;
+      margin: 10vh 0 10vh 10vh; }
+      .mainContacto .container1 .opcionWhatsapp:hover {
+        background-color: transparent;
+        border: 2px solid #FFEA11;
+        color: white;
+        transform: scale(1.1);
+        transition-duration: 1s;
+        transition-timing-function: ease-out; }
+      .mainContacto .container1 .opcionWhatsapp div i {
+        font-size: 25px; }
+  .mainContacto .container2 {
+    width: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 73px; }
+    .mainContacto .container2 form .name {
+      display: flex;
+      border: 2px solid #e6b069;
+      border-radius: 10px;
+      padding: 10px 10px 10px 30px;
+      width: 350px;
+      height: 70px;
+      margin: 15px; }
+      .mainContacto .container2 form .name input {
+        background-color: transparent;
+        color: white; }
+    .mainContacto .container2 form .mail {
+      display: flex;
+      border: 2px solid #e6b069;
+      border-radius: 10px;
+      padding: 10px 10px 10px 30px;
+      width: 350px;
+      height: 70px;
+      margin: 15px; }
+      .mainContacto .container2 form .mail input {
+        background-color: transparent;
+        color: white; }
+    .mainContacto .container2 form .comentario {
+      display: flex;
+      align-items: flex-start;
+      border: 2px solid #e6b069;
+      border-radius: 10px;
+      padding: 30px 10px 10px 30px;
+      height: 300px;
+      width: 600px;
+      margin: 15px; }
+      .mainContacto .container2 form .comentario input {
+        background-color: transparent;
+        color: white; }
+    .mainContacto .container2 form .enviar {
+      display: flex;
+      border: 2px solid #e6b069;
+      border-radius: 10px;
+      padding: 10px 10px 10px 28px;
+      width: 150px;
+      margin: 15px; }
+      .mainContacto .container2 form .enviar:hover {
+        background-color: #FFEA11; }
+      .mainContacto .container2 form .enviar input {
+        background-color: transparent;
+        color: white; }
+
+footer .redes {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+  footer .redes a .social {
+    height: 40px;
+    width: 40px;
+    margin-inline: 20px; }
+    footer .redes a .social:hover {
+      transform: scale(1.07); }
+
+.footerServicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 80px; }
+  .footerServicios .plus {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 25px;
+    color: white; }
+    .footerServicios .plus h4 {
+      font-size: 16px; }
+    .footerServicios .plus a {
+      color: white;
+      text-decoration: underline;
+      margin-top: 5px; }
+  .footerServicios .redesServicios {
+    display: flex;
+    justify-content: center; }
+    .footerServicios .redesServicios a img {
+      height: 40px;
+      width: 40px;
+      margin-inline: 20px; }
+      .footerServicios .redesServicios a img:hover {
+        transform: scale(1.07); }
+
+.footerContacto {
+  display: grid;
+  grid-template-rows: 80px 220px;
+  grid-template-columns: 1.5fr 0.5fr 1fr; }
+  .footerContacto .redesContacto {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center; }
+    .footerContacto .redesContacto a {
+      color: white; }
+      .footerContacto .redesContacto a img {
+        margin: 20px;
+        height: 50px;
+        width: 50px; }
+  .footerContacto .nosotrosContacto {
+    padding: 20px; }
+    .footerContacto .nosotrosContacto div h2 {
+      font-size: 25px; }
+  .footerContacto .menuContacto {
+    padding: 20px; }
+    .footerContacto .menuContacto div h2 {
+      font-size: 25px; }
+    .footerContacto .menuContacto ul {
+      list-style: circle; }
+      .footerContacto .menuContacto ul li a {
+        color: white;
+        font-size: 16px; }
+  .footerContacto .ubicacionContacto {
+    padding: 20px; }
+    .footerContacto .ubicacionContacto div h2 {
+      font-size: 25px; }
+    .footerContacto .ubicacionContacto ul {
+      list-style: circle; }
+      .footerContacto .ubicacionContacto ul li p {
+        font-size: 16px; }
+
+@media screen and (max-width: 970px) {
+  .back .header .menu {
+    flex-direction: column;
+    width: 100%; }
+    .back .header .menu .logo a img {
+      height: 100px;
+      width: 300px; } }
+
+@media screen and (max-width: 950px) {
+  .back main .containerToyota img {
+    width: 80vh; }
+  .back main .containerFord img {
+    width: 70vh; }
+  .back main .containerNissan img {
+    width: 80vh; } }
+
+@media screen and (max-width: 850px) {
+  .back .header .menu .nav a {
+    display: none; }
+  .back .header .menu .nav1 {
+    display: flex;
+    flex-direction: row;
+    visibility: visible; }
+  .back .header .menu .nav1 a {
+    margin-inline: 10px;
+    color: white; }
+    .back .header .menu .nav1 a:hover {
+      color: black;
+      transform: scale(1.05); }
+  .back main .containerToyota {
+    flex-direction: column;
+    align-items: center; }
+  .back main .containerToyota img {
+    width: 80vh;
+    margin: 20px; }
+  .back main .txtToyota {
+    margin: 0;
+    padding-inline: 50px;
+    width: 100%;
+    height: 24vh; }
+  .back main .containerFord {
+    flex-direction: column-reverse;
+    align-items: center; }
+  .back main .containerFord img {
+    width: 70vh;
+    margin: 40px 20px 20px 20px; }
+  .back main .txtFord {
+    margin: 0;
+    padding-inline: 50px;
+    width: 100%;
+    height: 33vh; }
+  .back main .containerNissan {
+    flex-direction: column;
+    align-items: center; }
+  .back main .containerNissan img {
+    width: 80vh;
+    margin: 40px 20px 20px 20px; }
+  .back main .txtNissan {
+    margin: 0 0 10px 0;
+    padding-inline: 50px;
+    width: 100%;
+    height: 30vh; } }
+
+@media screen and (max-width: 580px) {
+  .txtToyota p {
+    font-size: 12px; }
+  .txtFord p {
+    font-size: 12px; }
+  .txtNissan p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 500px) {
+  .back main .containerToyota img {
+    width: 60vh; }
+  .back main .containerFord img {
+    width: 50vh; }
+  .back main .containerNissan img {
+    width: 60vh; } }
+
+@media screen and (max-width: 430px) {
+  .back main .containerToyota .txtToyota {
+    height: 30vh; } }
+
+@media screen and (max-width: 385px) {
+  .back main .containerToyota img {
+    width: 50vh; }
+  .back main .containerFord img {
+    width: 50vh; }
+  .back main .containerFord .txtFord {
+    height: 37vh; }
+  .back main .containerNissan img {
+    width: 50vh; }
+  .back main .containerNissan .txtNissan {
+    height: 33vh; } }
+
+@media screen and (max-width: 355px) {
+  .back main .containerToyota img {
+    width: 40vh; }
+  .back main .containerToyota .txtToyota p {
+    font-size: 11px; }
+  .back main .containerFord img {
+    width: 40vh; }
+  .back main .containerFord .txtFord p {
+    font-size: 11px; }
+  .back main .containerNissan img {
+    width: 40vh; }
+  .back main .containerNissan .txtNissan p {
+    font-size: 11px; } }
+
+@media screen and (max-width: 320px) {
+  .back .header .menu .logo a img {
+    height: 80px;
+    width: 280px; }
+  .back main .containerToyota img {
+    width: 35vh; }
+  .back main .containerToyota .txtToyota {
+    padding: 20px;
+    width: 260px; }
+  .back main .containerFord img {
+    width: 30vh; }
+  .back main .containerFord .txtFord {
+    padding: 20px;
+    width: 260px; }
+  .back main .containerNissan img {
+    width: 35vh; }
+  .back main .containerNissan .txtNissan {
+    padding: 20px;
+    width: 260px; }
+  .back footer .redes a {
+    width: 70px; } }
+
+@media screen and (max-width: 920px) {
+  .back .main .heroSection h1 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 756px) {
+  .back .main .heroSection h1 {
+    font-size: 17px; } }
+
+@media screen and (max-width: 666px) {
+  .back .main .heroSection h1 {
+    font-size: 14px; } }
+
+@media screen and (max-width: 510px) {
+  .back .main .heroSection h1 {
+    font-size: 7px; } }
+
+@media screen and (max-width: 462px) {
+  .back .main .heroSection h1 {
+    font-size: 6px; }
+  .back .footer .redes a img {
+    height: 40px;
+    width: 40px; } }
+
+@media screen and (max-width: 1064px) {
+  .gridServicios .mainServicios .containerPikcup .imgToyota img {
+    height: 68vh; }
+  .gridServicios .mainServicios .containerPikcup .infoToyota {
+    height: 100px; }
+  .gridServicios .mainServicios .containerPikcup .imgFord img {
+    height: 68vh; }
+  .gridServicios .mainServicios .containerPikcup .infoFord {
+    height: 100px; }
+  .gridServicios .mainServicios .containerPikcup .imgNissan img {
+    height: 68vh;
+    width: 53vh; }
+  .gridServicios .mainServicios .containerPikcup .infoNissan {
+    height: 100px; } }
+
+@media screen and (max-width: 1000px) {
+  .gridServicios .mainServicios .containerPikcup .imgToyota img {
+    height: 60vh; }
+  .gridServicios .mainServicios .containerPikcup .imgFord img {
+    height: 60vh; }
+  .gridServicios .mainServicios .containerPikcup .imgNissan img {
+    height: 60vh;
+    width: 50vh; } }
+
+@media screen and (max-width: 970px) {
+  .gridServicios .header .menu {
+    flex-direction: column;
+    width: 100%; }
+    .gridServicios .header .menu .logo a img {
+      height: 100px;
+      width: 300px; } }
+
+@media screen and (max-width: 950px) {
+  .gridServicios .mainServicios {
+    justify-content: space-evenly;
+    margin-bottom: 40px; }
+    .gridServicios .mainServicios .containerPikcup {
+      width: 200px; }
+      .gridServicios .mainServicios .containerPikcup .imgToyota img {
+        height: 40vh; }
+      .gridServicios .mainServicios .containerPikcup .infoToyota {
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        width: 150px; }
+      .gridServicios .mainServicios .containerPikcup .imgFord img {
+        height: 40vh; }
+      .gridServicios .mainServicios .containerPikcup .infoFord {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        width: 150px;
+        padding-top: 25px; }
+      .gridServicios .mainServicios .containerPikcup .imgNissan img {
+        height: 40vh;
+        width: 34vh; }
+      .gridServicios .mainServicios .containerPikcup .infoNissan {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        width: 150px;
+        padding-top: 25px; } }
+
+@media screen and (max-width: 850px) {
+  .gridServicios .header .menu .nav a {
+    display: none; }
+  .gridServicios .header .menu .nav1 {
+    display: flex;
+    flex-direction: row;
+    visibility: visible; }
+  .gridServicios .header .menu .nav1 a {
+    margin-inline: 10px;
+    color: white; }
+  .gridServicios .header .menu .nav1 a:hover {
+    color: black;
+    transform: scale(1.05); } }
+
+@media screen and (max-width: 650px) {
+  .gridServicios .mainServicios {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center; }
+    .gridServicios .mainServicios .containerPikcup {
+      width: 55vh;
+      margin-bottom: 20px;
+      padding-top: 13px; }
+      .gridServicios .mainServicios .containerPikcup .imgToyota img {
+        height: 60vh; }
+      .gridServicios .mainServicios .containerPikcup .infoToyota {
+        height: 100px;
+        width: 300px; }
+      .gridServicios .mainServicios .containerPikcup .imgFord img {
+        height: 62vh; }
+      .gridServicios .mainServicios .containerPikcup .infoFord {
+        height: 100px;
+        width: 300px;
+        padding: 0; }
+      .gridServicios .mainServicios .containerPikcup .imgNissan img {
+        height: 60vh;
+        width: 51vh; }
+      .gridServicios .mainServicios .containerPikcup .infoNissan {
+        height: 100px;
+        width: 300px;
+        padding: 0; } }
+
+@media screen and (max-width: 500px) {
+  .gridServicios .footerServicios .plus h4 {
+    height: 100%;
+    font-size: 14px; }
+  .gridServicios .footerServicios .redesServicios a img {
+    height: 40px;
+    width: 40px;
+    margin: 20px; } }
+
+@media screen and (max-width: 430px) {
+  .gridServicios .footerServicios .plus h4 {
+    height: 100%;
+    font-size: 12px; } }
+
+@media screen and (max-width: 365px) {
+  .gridServicios .mainServicios .containerPikcup {
+    width: 40vh; }
+    .gridServicios .mainServicios .containerPikcup .imgToyota img {
+      height: 45vh; }
+    .gridServicios .mainServicios .containerPikcup .infoToyota {
+      height: 90px;
+      width: 230px; }
+    .gridServicios .mainServicios .containerPikcup .imgFord img {
+      height: 47vh; }
+    .gridServicios .mainServicios .containerPikcup .infoFord {
+      height: 90px;
+      width: 230px;
+      padding: 0; }
+    .gridServicios .mainServicios .containerPikcup .imgNissan img {
+      height: 45vh;
+      width: 36.5vh; }
+    .gridServicios .mainServicios .containerPikcup .infoNissan {
+      height: 90px;
+      width: 230px;
+      padding: 0; } }
+
+@media screen and (max-width: 320px) {
+  .gridServicios .header .menu .logo a img {
+    height: 80px;
+    width: 280px; } }
+
+@media screen and (max-width: 1064px) {
+  .back main .containerMision div .imgMision {
+    height: 500px;
+    width: 500px;
+    margin-left: 450px; }
+  .back main .containerMision .mision {
+    left: 70px; }
+    .back main .containerMision .mision .txtMision {
+      width: 350px; }
+  .back main .containerVision div .imgVision {
+    height: 500px;
+    width: 500px;
+    margin-left: 80px; }
+  .back main .containerVision .vision {
+    left: 650px; }
+    .back main .containerVision .vision .txtVision {
+      width: 350px; } }
+
+@media screen and (max-width: 1024px) {
+  .back main .containerMision div .imgMision {
+    height: 400px;
+    width: 400px;
+    margin-top: 70px; }
+  .back main .containerVision div .imgVision {
+    height: 400px;
+    width: 400px;
+    margin-top: -170px;
+    margin-left: 150px; }
+  .back main .containerVision .vision {
+    left: 605px; } }
+
+@media screen and (max-width: 970px) {
+  .back main .containerMision div .imgMision {
+    height: 400px;
+    width: 400px;
+    margin: 70px 0 0 430px; }
+  .back main .containerMision .mision {
+    left: 60px; }
+    .back main .containerMision .mision h2 {
+      font-size: 20px; }
+    .back main .containerMision .mision .txtMision {
+      font-size: 14px; }
+  .back main .containerVision div .imgVision {
+    height: 400px;
+    width: 400px;
+    margin-top: -170px;
+    margin-left: 150px;
+    margin: -170px 0 50px 130px; }
+  .back main .containerVision .vision {
+    left: 580px; }
+    .back main .containerVision .vision h2 {
+      font-size: 20px; }
+    .back main .containerVision .vision .txtVision {
+      font-size: 14px;
+      width: 300px; } }
+
+@media screen and (max-width: 908px) {
+  .back main .containerMision div .imgMision {
+    height: 300px;
+    width: 300px;
+    margin: 90px 0 0 400px; }
+  .back main .containerMision .mision {
+    top: 70px; }
+    .back main .containerMision .mision .txtMision {
+      width: 300px; }
+  .back main .containerVision div .imgVision {
+    height: 300px;
+    width: 300px;
+    margin-top: -170px;
+    margin-left: 150px;
+    margin: -130px 0 50px 180px; }
+  .back main .containerVision .vision {
+    top: 40px;
+    left: 520px; } }
+
+@media screen and (max-width: 840px) {
+  .back main .containerMision div .imgMision {
+    height: 300px;
+    width: 300px;
+    margin: 90px 0 0 400px; }
+  .back main .containerMision .mision {
+    top: 120px; }
+  .back main .containerVision div .imgVision {
+    height: 300px;
+    width: 300px;
+    margin-top: -170px;
+    margin-left: 150px;
+    margin: -60px 0 50px 60px; }
+  .back main .containerVision .vision {
+    left: 420px; } }
+
+@media screen and (max-width: 740px) {
+  .back main .containerMision div .imgMision {
+    height: 200px;
+    width: 200px;
+    margin: 40px 0 0 350px; }
+  .back main .containerMision .mision {
+    top: 40px; }
+    .back main .containerMision .mision .txtMision {
+      width: 250px; }
+  .back main .containerVision div .imgVision {
+    height: 200px;
+    width: 200px;
+    margin-top: -170px;
+    margin-left: 150px;
+    margin: 30px 0 50px 60px; }
+  .back main .containerVision .vision {
+    left: 320px; }
+    .back main .containerVision .vision .txtVision {
+      width: 250px; } }
+
+@media screen and (max-width: 600px) {
+  .back main .containerMision {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px; }
+    .back main .containerMision div .imgMision {
+      margin: 0;
+      margin-top: 50px; }
+    .back main .containerMision .mision {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-top: 25px; }
+      .back main .containerMision .mision h2 {
+        text-align: center;
+        margin-bottom: 15px; }
+      .back main .containerMision .mision .txtMision {
+        margin-top: 10px; }
+  .back main .containerVision {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 400px; }
+    .back main .containerVision div .imgVision {
+      margin: 0;
+      margin-top: 40px; }
+    .back main .containerVision .vision {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-top: 25px;
+      margin-bottom: 35px; }
+      .back main .containerVision .vision h2 {
+        text-align: center;
+        margin-bottom: 15px; }
+      .back main .containerVision .vision .txtVision {
+        margin-top: 10px; } }
+
+@media screen and (max-width: 1064px) {
+  .gridContacto .mainContacto .container2 .comentario {
+    width: 500px; } }
+
+@media screen and (max-width: 970px) {
+  .gridContacto .header .menu {
+    flex-direction: column;
+    width: 100%; }
+    .gridContacto .header .menu .logo a img {
+      height: 100px;
+      width: 300px; } }
+
+@media screen and (max-width: 930px) {
+  .gridContacto .mainContacto {
+    grid-template-columns: 0.5fr 1.5fr; }
+    .gridContacto .mainContacto .container1 {
+      width: 300px; }
+      .gridContacto .mainContacto .container1 .contacto h2 {
+        margin: 40px 0 0 -10px; }
+      .gridContacto .mainContacto .container1 .opcionEmail {
+        width: 200px; }
+      .gridContacto .mainContacto .container1 .opcionMessenger {
+        width: 200px; }
+      .gridContacto .mainContacto .container1 .opcionWhatsapp {
+        width: 200px; } }
+
+@media screen and (max-width: 850px) {
+  .gridContacto .header .menu .nav a {
+    display: none; }
+  .gridContacto .header .menu .nav1 {
+    display: flex;
+    flex-direction: row;
+    visibility: visible; }
+  .gridContacto .header .menu .nav1 a {
+    margin-inline: 10px;
+    color: white; }
+  .gridContacto .header .menu .nav1 a:hover {
+    color: black;
+    transform: scale(1.05); }
+  .gridContacto .footerContacto .nosotrosContacto p {
+    font-size: 14px; }
+  .gridContacto .footerContacto .menuContacto ul li a {
+    font-size: 14px; }
+  .gridContacto .footerContacto .ubicacionContacto ul li p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 835px) {
+  .gridContacto .mainContacto .container2 {
+    width: 450px; }
+    .gridContacto .mainContacto .container2 form .name {
+      width: 250px;
+      height: 60px; }
+    .gridContacto .mainContacto .container2 form .mail {
+      width: 250px;
+      height: 60px; }
+    .gridContacto .mainContacto .container2 form .comentario {
+      width: 400px; }
+    .gridContacto .mainContacto .container2 form .enviar {
+      width: 110px;
+      padding: 10px; } }
+
+@media screen and (max-width: 800px) {
+  .gridContacto {
+    grid-template-rows: 280px auto auto; }
+    .gridContacto .mainContacto {
+      grid-template-rows: 750px 600px;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      align-items: center; }
+      .gridContacto .mainContacto .container1 .contacto h2 {
+        margin: 30px 0 0 0px;
+        text-align: center; }
+      .gridContacto .mainContacto .container1 .opcionEmail {
+        width: 440px;
+        height: 30vh;
+        margin: 40px 0 40px 0; }
+      .gridContacto .mainContacto .container1 .opcionMessenger {
+        width: 440px;
+        height: 30vh;
+        margin: 0 0 40px 0; }
+      .gridContacto .mainContacto .container1 .opcionWhatsapp {
+        width: 440px;
+        height: 30vh;
+        margin: 0; }
+      .gridContacto .mainContacto .container2 {
+        margin: 0;
+        width: 450px; }
+        .gridContacto .mainContacto .container2 form {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .gridContacto .mainContacto .container2 form .name {
+            width: 440px;
+            height: 60px;
+            margin: 0 0 30px 0; }
+          .gridContacto .mainContacto .container2 form .mail {
+            width: 440px;
+            height: 60px;
+            margin: 0 0 30px 0; }
+          .gridContacto .mainContacto .container2 form .comentario {
+            width: 440px;
+            margin: 0 0 30px 0; }
+          .gridContacto .mainContacto .container2 form .enviar {
+            width: 130px; }
+  .footerContacto {
+    grid-template-rows: 80px repeat(3, 200px);
+    grid-template-columns: 1fr; }
+    .footerContacto .nosotrosContacto {
+      grid-column: 1/4;
+      text-align: justify; }
+    .footerContacto .menuContacto {
+      grid-column: 1/4; }
+      .footerContacto .menuContacto h2 {
+        text-align: center;
+        margin-bottom: 15px; }
+      .footerContacto .menuContacto ul {
+        display: flex;
+        justify-content: center; }
+        .footerContacto .menuContacto ul li {
+          margin-inline: 10px;
+          padding-inline: 5px; }
+    .footerContacto .ubicacionContacto {
+      grid-column: 1/4; }
+      .footerContacto .ubicacionContacto h2 {
+        text-align: center;
+        margin-bottom: 15px; }
+      .footerContacto .ubicacionContacto .ul1 {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items: center; } }
+
+@media screen and (max-width: 500px) {
+  .gridContacto .mainContacto .container1 .opcionEmail {
+    width: 380px;
+    height: 30vh;
+    margin: 40px 0 40px 0; }
+  .gridContacto .mainContacto .container1 .opcionMessenger {
+    width: 380px;
+    height: 30vh;
+    margin: 0 0 40px 0; }
+  .gridContacto .mainContacto .container1 .opcionWhatsapp {
+    width: 380px;
+    height: 30vh;
+    margin: 0; }
+  .gridContacto .mainContacto .container2 form .name {
+    width: 380px;
+    height: 60px;
+    margin: 0 0 30px 0; }
+  .gridContacto .mainContacto .container2 form .mail {
+    width: 380px;
+    height: 60px;
+    margin: 0 0 30px 0; }
+  .gridContacto .mainContacto .container2 form .comentario {
+    width: 380px;
+    margin: 0 0 30px 0; }
+  .gridContacto .mainContacto .container2 form .enviar {
+    width: 110px;
+    padding: 10px; }
+  .gridContacto .footerContacto .menuContacto {
+    grid-column: 1/4; }
+    .gridContacto .footerContacto .menuContacto ul {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      justify-content: center;
+      align-items: center; } }
+
+@media screen and (max-width: 450px) {
+  .gridContacto .mainContacto .container1 .opcionEmail {
+    width: 330px;
+    height: 30vh;
+    margin: 40px 0 40px 0; }
+  .gridContacto .mainContacto .container1 .opcionMessenger {
+    width: 330px;
+    height: 30vh;
+    margin: 0 0 40px 0; }
+  .gridContacto .mainContacto .container1 .opcionWhatsapp {
+    width: 330px;
+    height: 30vh;
+    margin: 0; }
+  .gridContacto .mainContacto .container2 {
+    width: 330px; }
+    .gridContacto .mainContacto .container2 form .name {
+      width: 330px;
+      height: 60px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .mail {
+      width: 330px;
+      height: 60px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .comentario {
+      width: 330px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .enviar {
+      width: 110px;
+      padding: 10px; }
+  .gridContacto .footerContacto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; }
+    .gridContacto .footerContacto .nosotrosContacto {
+      width: 330px;
+      height: 200px;
+      padding-bottom: 0; }
+    .gridContacto .footerContacto .menuContacto {
+      width: 330px;
+      padding-top: 0; } }
+
+@media screen and (max-width: 360px) {
+  .gridContacto .header .menu .logo a img {
+    height: 80px;
+    width: 280px; }
+  .gridContacto .mainContacto .container1 {
+    width: 280px; }
+    .gridContacto .mainContacto .container1 .opcionEmail {
+      width: 280px;
+      height: 30vh;
+      margin: 40px 0 40px 0; }
+    .gridContacto .mainContacto .container1 .opcionMessenger {
+      width: 280px;
+      height: 30vh;
+      margin: 0 0 40px 0; }
+    .gridContacto .mainContacto .container1 .opcionWhatsapp {
+      width: 280px;
+      height: 30vh;
+      margin: 0; }
+  .gridContacto .mainContacto .container2 {
+    width: 280px; }
+    .gridContacto .mainContacto .container2 form .name {
+      width: 280px;
+      height: 60px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .mail {
+      width: 280px;
+      height: 60px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .comentario {
+      width: 280px;
+      margin: 0 0 30px 0; }
+    .gridContacto .mainContacto .container2 form .enviar {
+      width: 110px;
+      padding: 10px; }
+  .gridContacto .footerContacto .nosotrosContacto {
+    width: 280px;
+    height: 200px;
+    padding-bottom: 0; }
+  .gridContacto .footerContacto .menuContacto {
+    width: 280px;
+    padding-top: 0; } }

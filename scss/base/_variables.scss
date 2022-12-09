@@ -1,0 +1,66 @@
+//! VARIABLES
+$colorPrincipal:black;
+$colorLetras:white;
+$colorHover:black;
+
+//! LISTAS
+$colores:
+black,
+white,
+#FFEA11,
+rgb(230, 176, 105);
+$fontSize:
+25px,
+20px,
+17px,
+16px,
+15px,
+14px,
+12px,
+11px,
+7px,
+6px;
+
+//! MAPAS
+$button:(
+    bordeBoton: 2px solid black,
+    bordeBoton2: 2px solid rgb(230, 176, 105),
+    fondoBoton:#FFEA11,
+    letraBoton: black,
+);
+$buttonHover:(
+    bordeBoton: 2px solid #FFEA11,
+    fondoBoton: transparent,
+    letraBoton: white,
+);
+
+//! EXTENDS
+%encabezado{
+    height: 50vh;
+    background-image: url(../../img/FondoCopia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    display: flex;
+    flex-flow: column nowrap;
+}
+%menu{
+    background-color: rgba(0,0,0,0.50);
+    display: flex;
+    height: 115px;
+    align-items: center;
+}
+
+//! MIXINS
+@mixin containerIndex ($flex, $flow){
+    display: $flex;
+    flex-flow: $flow;
+}
+@mixin flex ($flex, $direction, $text, $justify, $aling){
+    display: $flex;
+    flex-direction: $direction;
+    text-align: $text;
+    justify-content: $justify;
+    align-items: $aling;
+}

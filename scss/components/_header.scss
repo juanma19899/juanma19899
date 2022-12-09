@@ -1,0 +1,146 @@
+@import"../base/variables";
+
+.back{
+    background-color:$colorPrincipal;
+    header{
+        height: 50vh;
+        background-image: url(../img/FondoCopia.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        display: flex;
+        flex-flow: column nowrap;
+        .menu{
+            background: rgba(0, 0, 0, 0.50);
+            display: flex;
+            flex-flow: row;
+            height: 115px;
+            align-items: center;
+            .nav{
+                flex: 5 1 auto;
+                a{
+                    padding: 10px;
+                    color: $colorLetras;
+                    font-size: nth($fontSize,5);
+                    letter-spacing: 2px;
+                    &:hover{
+                        color: $colorHover;
+                    }
+                }
+            }
+            .nav1{
+                display: none;
+                visibility: hidden;
+            }
+            .logo{
+                display: flex;
+                flex-flow: row nowrap; 
+                a{
+                    img{
+                        width: 380px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gridServicios{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 350px auto 180px;
+    background-color: $colorPrincipal;
+    header{
+        height: 50vh;
+        background-image: url(../img/FondoCopia.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        display: flex;
+        flex-flow: column nowrap;
+        .menu{
+            background: rgba(0, 0, 0, 0.50);
+            display: flex;
+            flex-flow: row;
+            height: 115px;
+            align-items: center;
+            .nav{
+                flex: 5 1 auto;
+                a{
+                    padding: 10px;
+                    color: $colorLetras;
+                    font-size: nth($fontSize,5);
+                    letter-spacing: 2px;
+                    &:hover{
+                        color: $colorHover;
+                    }
+                }
+            }
+            .nav1{
+                display: none;
+                visibility: hidden;
+            }
+            .logo{
+                display: flex;
+                flex-flow: row nowrap; 
+                a{
+                    img{
+                        width: 380px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gridContacto{
+    color: $colorLetras;
+    background-color: $colorPrincipal;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px auto 300px;
+    header{
+        height: 50vh;
+        background-image: url(../img/FondoCopia.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: sticky;
+        display: flex;
+        flex-flow: column nowrap;
+        .menu{
+            background: rgba(0, 0, 0, 0.50);
+            display: flex;
+            flex-flow: row;
+            height: 115px;
+            align-items: center;
+            .nav{
+                flex: 5 1 auto;
+                a{
+                    padding: 10px;
+                    color: $colorLetras;
+                    font-size: nth($fontSize,5);
+                    letter-spacing: 2px;
+                    &:hover{
+                        color: $colorHover;
+                    }
+                }
+            }
+            .nav1{
+                display: none;
+                visibility: hidden;
+            }
+            .logo{
+                display: flex;
+                flex-flow: row nowrap; 
+                a{
+                    img{
+                        width: 380px;
+                    }
+                }
+            }
+        }
+    }
+}

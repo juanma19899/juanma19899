@@ -1,0 +1,112 @@
+@import"../base/variables";
+
+footer{
+    .redes{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        a{
+            .social{
+                height: 40px;
+                width: 40px;
+                margin-inline:  20px;
+                &:hover{
+                    transform: scale(1.07);
+                }
+            }
+        }
+    }
+}
+
+.footerServicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 80px; 
+    .plus{
+        @include flex (flex, column, center, center, center);   
+        padding-inline: 25px;  
+        color: $colorLetras;  
+        h4{
+           font-size: nth($fontSize,4);
+        }
+        a{
+           color: $colorLetras;
+           text-decoration: underline;
+           margin-top: 5px;
+        }
+    }
+    .redesServicios{
+        display: flex;
+        justify-content: center;
+        a{
+           img{
+               height: 40px;
+               width: 40px;
+               margin-inline:  20px;
+               &:hover{
+                   transform: scale(1.07);
+               }
+           }
+        }
+    }
+}
+
+.footerContacto{
+    display: grid;
+    grid-template-rows: 80px 220px;
+    grid-template-columns: 1.5fr 0.5fr 1fr;
+    .redesContacto{
+        grid-column: 1/4;
+        display: flex;
+        justify-content: center;
+        a{
+            color: $colorLetras;
+            img{
+                margin: 20px;
+                height: 50px;
+                width: 50px;
+                }
+            }    
+        }
+    .nosotrosContacto{
+        padding: 20px;
+            div{
+                h2{
+                    font-size: nth($fontSize,1);
+                }
+            }
+        }
+    .menuContacto{
+        padding: 20px;
+        div{
+            h2{
+                font-size: nth($fontSize,1);
+            }
+        }
+        ul{
+            list-style: circle;
+            li{
+                a{
+                    color: $colorLetras;
+                    font-size: nth($fontSize,4);
+                }
+            }
+        }
+    }
+    .ubicacionContacto{
+        padding: 20px;
+        div{
+            h2{
+                font-size: nth($fontSize,1);
+            }
+        }
+        ul{
+            list-style: circle; 
+            li{
+                p{
+                    font-size: nth($fontSize,4);
+                }
+            }
+        }
+    }
+}

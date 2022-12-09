@@ -1,0 +1,480 @@
+@import"../base/variables";
+
+//! ================== MAIN INDEX =======================
+main{
+    .containerToyota{
+        @include containerIndex(flex, row nowrap);
+        div{
+            img{
+                width: 100vh;
+                margin: 50px;
+                -webkit-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                -moz-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                &:hover{
+                    transition-duration: 1s;
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .txtToyota{
+            @include flex(flex, column, justify, center, center);
+            width: 100vh;
+            margin-right: 50px;
+            color: $colorLetras;
+            font-size: nth($fontSize,4);
+            .txt1{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .containerFord{
+        @include containerIndex(flex, row nowrap);
+        .txtFord{
+            @include flex(flex, column, justify, center, center);
+            width: 110vh;
+            margin-left: 50px;
+            color: $colorLetras;
+            font-size: nth($fontSize,4);
+            .txt1{
+                margin-bottom: 10px;
+            }
+        }
+        div{
+            img{
+                width: 90vh;
+                margin: 0 50px 50px 50px;
+                -webkit-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                -moz-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                &:hover{
+                    transition-duration: 1s;
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+    .containerNissan{
+        @include containerIndex(flex, row nowrap);
+        div{
+            img{
+                width: 100vh;
+                margin: 0 50px 10px 50px;
+                -webkit-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                -moz-box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                box-shadow: 0px 0px 45px 1px rgba(92,88,92,1);
+                &:hover{
+                    transition-duration: 1s;
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .txtNissan{
+            @include flex(flex, column, justify, center, center);
+            width: 100vh;
+            margin-right: 50px;
+            color: $colorLetras;
+            font-size: nth($fontSize,4);
+            .txt1{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+//! ================== MAIN PRODUCTOS ===================
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    .heroSection{
+        display: flex;
+        justify-content: center;
+        h1{
+            width: 100%;
+            text-align: center;
+            font-size: nth($fontSize,1);
+            margin-block: 2vh;
+            color: $colorLetras;
+            letter-spacing: 2px;
+        }
+    }
+    .carruselToyota{
+        margin-bottom: 7vh;
+        -webkit-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        -moz-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        border-block: 2px solid black;
+        #carouselExampleFeid{
+            div{
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+        }
+    }
+    .carruselFord{
+        margin-bottom: 7vh;
+        -webkit-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        -moz-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        border-block: 2px solid black;
+        #carouselExampleFeid1{
+            div{
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+        }
+    }
+    .carruselNissan{
+        margin-bottom: 5vh;
+        -webkit-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        -moz-box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        box-shadow: 0px 0px 11px 7px rgba(110,104,110,0.86);
+        border-block: 2px solid black;
+        #carouselExampleFeid2{
+            div{
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+                div{
+                    img{
+
+                    }
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+            button{
+                span{
+                }
+                span{
+                }
+            }
+        }
+    }
+}
+
+
+//! =================== MAIN SERVICIOS ===================
+.mainServicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    .containerPikcup{
+        box-shadow: -10px 10px 5px rgba(128, 128, 128, 0.582);
+        border-radius: 20px;
+        color: $colorLetras;
+        font-weight: bold;
+        font-size: small;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.02);
+        }
+        .imgToyota img{
+            display: flex;
+            height: 80vh;
+        }
+        .infoToyota{
+            @include flex(flex, row, justify, space-around, center);
+            height: 100px;
+            flex-wrap: wrap;
+        }
+        .imgFord img{
+            height: 80vh;
+        }
+        .infoFord{
+            @include flex(flex, row, justify, space-around, center);
+            height: 100px;
+            flex-wrap: wrap;
+        }
+        .imgNissan img{
+            height: 80vh;
+            width: 62vh;
+        }
+        .infoNissan{
+            @include flex(flex, row, justify, space-around, center);
+            height: 100px;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+//! =================== MAIN NOSOTROS ===================
+.containerMision{
+    width: 100%;
+    position: relative;
+    .imgMision{
+        height: 600px;
+        width: 600px;
+        margin-top: 50px;
+        margin-left: 550px;
+        /* box-shadow: 10px -10px 5px rgba(228, 209, 209, 0.582); */
+        -webkit-box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+        -moz-box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+        box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+    }
+    .mision{
+        position: absolute;
+        left: 100px;
+        top: 100px;
+        color: $colorLetras;
+        h2{
+            font-size: nth($fontSize,1);
+        }
+        .txtMision{
+            @include flex(flex, row, justify, center, center);
+            width: 400px;
+            margin-top: 30px;
+            font-size: nth($fontSize,4);
+        }
+    }
+}       
+.containerVision{
+    width: 100%;
+    position: relative;
+    .imgVision{
+        height: 600px;
+        width: 600px;
+        margin-top: -240px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        /* box-shadow: 10px -10px 5px rgba(128, 128, 128, 0.582); */
+        -webkit-box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+        -moz-box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+        box-shadow: 0px 0px 19px 6px rgba(158,128,128,1);
+    }
+    .vision{
+        position: absolute;
+        left: 820px;
+        top: 70px;
+        color: $colorLetras;
+        h2{
+            font-size: nth($fontSize,1);
+        }
+        .txtVision{
+            @include flex(flex, row, justify, center, center);
+            width: 400px;
+            margin-top: 30px;
+            font-size: nth($fontSize,4);
+        }
+    }
+}
+
+
+//! ==================== MAIN CONTACTO ==================
+.mainContacto{
+    display: grid;
+    grid-template-rows: 900px;
+    grid-template-columns: 1fr 1.5fr;
+    .container1{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        .contacto{
+            h2{
+            margin: 40px 0 0 -50px;
+            font-size: 30px;   
+            }  
+        }
+        .opcionEmail{
+            @include flex(flex, column, center, center, center);
+            background-color: map-get($button, fondoBoton);
+            border: map-get($button, bordeBoton);
+            color: map-get($button, letraBoton);
+            -webkit-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            -moz-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            border-radius: 20px;
+            width: 265px;
+            height: 30vh;
+            margin: 10vh 0 0 10vh;
+            &:hover{
+                background-color: map-get($buttonHover, fondoBoton);
+                border: map-get($buttonHover, bordeBoton);
+                color: map-get($buttonHover, letraBoton);
+                transform: scale(1.1);
+                transition-duration: 1s;
+                transition-timing-function: ease-out;
+            }
+            div i{
+                font-size: nth($fontSize , 1);
+            }
+        }
+        .opcionMessenger{
+            @include flex(flex, column, center, center, center);
+            background-color: map-get($button, fondoBoton);
+            border: map-get($button, bordeBoton);
+            color: map-get($button, letraBoton);
+            -webkit-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            -moz-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            border-radius: 20px;
+            width: 265px;
+            height: 30vh;
+            margin: 10vh 0 0 10vh;
+            &:hover{
+                background-color: map-get($buttonHover, fondoBoton);
+                border: map-get($buttonHover, bordeBoton);
+                color: map-get($buttonHover, letraBoton);
+                transform: scale(1.1);
+                transition-duration: 1s;
+                transition-timing-function: ease-out;
+            }
+            div i{
+                font-size: nth($fontSize , 1);
+            }
+        }
+        .opcionWhatsapp{
+            @include flex(flex, column, center, center, center);
+            background-color: map-get($button, fondoBoton);
+            border: map-get($button, bordeBoton);
+            color: map-get($button, letraBoton);
+            -webkit-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            -moz-box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            box-shadow: 0px 0px 13px 1px rgba(201,171,171,1);
+            border-radius: 20px;
+            width: 265px;
+            height: 30vh;
+            margin: 10vh 0 10vh 10vh;
+            &:hover{
+                background-color: map-get($buttonHover, fondoBoton);
+                border: map-get($buttonHover, bordeBoton);
+                color: map-get($buttonHover, letraBoton);
+                transform: scale(1.1);
+                transition-duration: 1s;
+                transition-timing-function: ease-out;
+            }
+            div i{
+                font-size: nth($fontSize , 1);
+            }
+        }
+    }
+    .container2{
+        width: 532px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 73px;
+        form{
+            .name{
+                display: flex;
+                border: map-get($button, bordeBoton2);
+                border-radius: 10px;
+                padding: 10px 10px 10px 30px;
+                width: 350px;
+                height: 70px;
+                margin: 15px;
+                input{
+                    background-color: map-get($buttonHover, fondoBoton);
+                    color: $colorLetras;
+                }
+            }
+            .mail{
+                display: flex;
+                border: map-get($button, bordeBoton2);
+                border-radius: 10px;
+                padding: 10px 10px 10px 30px;
+                width: 350px;
+                height: 70px;
+                margin: 15px;
+                input{
+                    background-color: map-get($buttonHover, fondoBoton);
+                    color: $colorLetras;
+                }
+            }
+            .comentario{
+                display: flex;
+                align-items: flex-start;
+                border: map-get($button, bordeBoton2);
+                border-radius: 10px;
+                padding:  30px 10px 10px 30px;
+                height: 300px;
+                width: 600px;
+                margin: 15px;
+                input{
+                    background-color: map-get($buttonHover, fondoBoton);
+                    color: $colorLetras;
+                }
+            }
+            .enviar{
+                display: flex;
+                border: map-get($button, bordeBoton2);
+                border-radius: 10px;
+                padding: 10px 10px 10px 28px;
+                width: 150px;
+                margin: 15px;
+                &:hover{
+                    background-color: nth($colores,3);
+                }
+                input{
+                    background-color: map-get($buttonHover, fondoBoton);
+                    color: $colorLetras;
+                }
+            }
+        }
+    }
+}
