@@ -1003,47 +1003,52 @@ a{
         justify-content: flex-start;
         margin-top: 73px;
     }
-    .name{
-        display: flex;
-        text-align: center;
-        border: 2px solid rgb(230, 176, 105);
-        border-radius: 10px;
-        padding: 10px 10px 10px 30px;
-        width: 350px;
-        height: 70px;
-        margin: 15px;
-    }
-    .mail{
-        display: flex;
-        text-align: center;
-        border: 2px solid rgb(230, 176, 105);
-        border-radius: 10px;
-        padding: 10px 10px 10px 30px;
-        width: 350px;
-        height: 70px;
-        margin: 15px;
-    }
-    .comentario{
-        display: flex;
-        align-items: flex-start;
-        border: 2px solid rgb(230, 176, 105);
-        border-radius: 10px;
-        padding:  30px 10px 10px 30px;
-        height: 300px;
-        width: 600px;
-        margin: 15px;
-    }
-    .enviar{
-        display: flex;
-        border: 2px solid rgb(230, 176, 105);
-        border-radius: 10px;
-        padding: 10px 10px 10px 28px;
-        width: 150px;
-        margin: 15px;
-    }
-    .enviar:hover{
-        background-color: #FFEA11;
-    }
+        form{
+        }
+            .name{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
+                display: flex;
+                text-align: center;
+                border: 2px solid rgb(230, 176, 105);
+                border-radius: 10px;
+                padding: 10px 10px 10px 30px;
+                width: 350px;
+                height: 70px;
+                margin: 15px;
+            }
+            .mail{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
+                display: flex;
+                text-align: center;
+                border: 2px solid rgb(230, 176, 105);
+                border-radius: 10px;
+                padding: 10px 10px 10px 30px;
+                width: 350px;
+                height: 70px;
+                margin: 15px;
+            }
+            .comentario{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
+                display: flex;
+                align-items: flex-start;
+                border: 2px solid rgb(230, 176, 105);
+                border-radius: 10px;
+                padding:  30px 10px 10px 30px;
+                height: 300px;
+                width: 600px;
+                margin: 15px;
+            }
+            .enviar{
+                display: flex;
+                border: 2px solid rgb(230, 176, 105);
+                border-radius: 10px;
+                padding: 10px 10px 10px 28px;
+                width: 150px;
+                margin: 15px;
+            }
+            .enviar:hover{
+                background-color: #FFEA11;
+            }
         input{
             background-color: transparent;
             color: #fff;

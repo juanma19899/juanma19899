@@ -432,6 +432,7 @@ main {
     justify-content: flex-start;
     margin-top: 73px; }
     .mainContacto .container2 form .name {
+      background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
       display: flex;
       border: 2px solid #e6b069;
       border-radius: 10px;
@@ -443,6 +444,7 @@ main {
         background-color: transparent;
         color: white; }
     .mainContacto .container2 form .mail {
+      background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
       display: flex;
       border: 2px solid #e6b069;
       border-radius: 10px;
@@ -454,6 +456,7 @@ main {
         background-color: transparent;
         color: white; }
     .mainContacto .container2 form .comentario {
+      background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
       display: flex;
       align-items: flex-start;
       border: 2px solid #e6b069;
@@ -462,9 +465,12 @@ main {
       height: 300px;
       width: 600px;
       margin: 15px; }
-      .mainContacto .container2 form .comentario input {
+      .mainContacto .container2 form .comentario textarea {
         background-color: transparent;
-        color: white; }
+        color: white;
+        resize: none;
+        width: 31rem;
+        height: 15rem; }
     .mainContacto .container2 form .enviar {
       display: flex;
       border: 2px solid #e6b069;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <link rel="shortcut icon" href="../img/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
     <meta name="description" content="Informacion de contacto de la empresa, con diferentes opciones para facilitar la comunicación, y resolución de dudas que pueden generarse al usuario.">
     <meta name="keywords" content="whatsapp, messenger, email, contacto, toyota, ford, nissan, pickup, carro, vehiculo, compra, off road, nuevo, coche, camioneta, hilux, raptor, frontier, motor">
     <meta property="og:type" content="Web site">
@@ -90,18 +91,19 @@
                 </article>
             </section>
             <section class="container2">
-                <form>
+                <form   action="https://formspree.io/f/mnqreeep"
+                method="POST">
                     <div class="name">
-                        <input type="text" id="name" placeholder="Escribe tu nombre">
+                        <input type="text" id="name" placeholder="Escribe tu nombre" name="name">
                     </div>
                     <div class="mail">
-                        <input type="email" id="mail" placeholder="ejemplo@mail.com">
+                        <input type="email" id="mail" placeholder="ejemplo@mail.com" name="_replyto">
                     </div>
                     <div class="comentario">
-                        <input type="text" placeholder="Dejanos tu mensaje...">
+                        <textarea type="text" placeholder="Dejanos tu mensaje..." name="message"></textarea>
                     </div>
                     <div class="enviar">
-                        <input type="text" placeholder="Send Message">
+                        <input type="submit" value="Enviar">
                     </div>
                 </form>
             </section>

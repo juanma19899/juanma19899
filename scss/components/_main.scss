@@ -421,6 +421,7 @@ main{
         margin-top: 73px;
         form{
             .name{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
                 display: flex;
                 border: map-get($button, bordeBoton2);
                 border-radius: 10px;
@@ -434,6 +435,7 @@ main{
                 }
             }
             .mail{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
                 display: flex;
                 border: map-get($button, bordeBoton2);
                 border-radius: 10px;
@@ -447,6 +449,7 @@ main{
                 }
             }
             .comentario{
+                background-image: linear-gradient(to right, #2c2c2c 0%, black 100%);
                 display: flex;
                 align-items: flex-start;
                 border: map-get($button, bordeBoton2);
@@ -455,9 +458,12 @@ main{
                 height: 300px;
                 width: 600px;
                 margin: 15px;
-                input{
+                textarea{
                     background-color: map-get($buttonHover, fondoBoton);
                     color: $colorLetras;
+                    resize: none;
+                    width: 31rem;
+                    height: 15rem;
                 }
             }
             .enviar{
